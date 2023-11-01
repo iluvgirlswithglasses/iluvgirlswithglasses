@@ -1,0 +1,242 @@
+
+%-------------------------
+% Based off of: https://github.com/sb2nov/resume
+% License: MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+\vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+\item\small{
+{#1 \vspace{-2pt}}
+}
+}
+
+\newcommand{\classesList}[4]{
+\item\small{
+{#1 #2 #3 #4 \vspace{-2pt}}
+}
+}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{-2pt}\item
+\begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+\textbf{#1} & \textbf{\small #2} \\
+\textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+\item
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+\textit{\small#1} & \textit{\small #2} \\
+\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+\item
+\begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+\small#1 & \textbf{\small #2}\\
+\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+{\Huge \scshape Luu Nam Dat} \\ \vspace{1pt}
+alias: iluvgirlswithglasses \\ \vspace{1pt}
+\small \raisebox{-0.1\height}\faPhone\ +847-0405-0027 ~ \href{mailto:lndat204@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{lndat204@gmail.com}} ~ 
+\href{https://github.com/iluvgirlswithglasses}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/iluvgirlswithglasses}}
+\vspace{-8pt}
+\end{center}
+
+
+%-----------ABOUT ME------------
+\section{About Me}
+I am Luu ``iluvgirlswithglasses'' Nam Dat, birthyear 2004. I passionate in crafting solutions for challenging projects. Weekly reports disgust me as they make me spend time on other things than getting my job done.
+
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{University of Science - VNUHCM}{October 2022 -- Today}
+{Bachelor of Computer Science}{Ho Chi Minh City, Vietnam}
+\resumeSubHeadingListEnd
+
+
+%------AREAS OF EXPERTISE-------
+\section{Areas of Expertise}
+%\resumeSubHeadingListStart
+\begin{multicols}{4}
+\begin{itemize}[itemsep=-5pt, parsep=3pt]
+\item\small Algorithmic Development
+\item Data Structures
+\item Mathematic Applications
+\item Computer Vision
+\item Systems Programming
+\item Compiler Utilization
+\item Operating Systems
+\item Computer Architecture
+\end{itemize}
+\end{multicols}
+\vspace*{2.0\multicolsep}
+%\resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Kc97ble (Free Contest)}{October 2021 -- October 2022}
+{Backend Developer}{Ho Chi Minh City, Vietnam}
+\resumeItemListStart
+\resumeItem{Developed a web service to operate highly-anticipated competitive programming contests.}
+\resumeItem{Became familiar with Typescript, NodeJS, and RESTful API in the process.}
+\resumeItem{Gained general development skills, including: A complete mastery of git version control; The ability to work in complicated code bases; The capability to produce clean and quality source code; Et cetera.}
+\resumeItemListEnd
+
+\resumeSubheading
+{SiGlaz VN Ltd.}{October 2022 -- Today}
+{Computer Vision Scientist}{Ho Chi Minh City, Vietnam}
+\resumeItemListStart
+\resumeItem{Worked as an independent researcher.}
+\resumeItem{Flawlessly integrated independent researches/projects into team project, regardless of the discrepancies in technologies.}
+\resumeItem{Gained the comprehensive proficiency in reading complex technical articles \& documents, as well as in composing them.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-16pt}
+
+
+%-----------PROJECTS-----------
+\section{Remarkable Solo Projects}
+\vspace{-5pt}
+\resumeSubHeadingListStart
+\resumeProjectHeading
+{\textbf{EuphoAFIS} $|$ \emph{C++, CMake, Clang+LLVM, Unix, Windows, No 3rd-party}}{2023}
+\resumeItemListStart
+\resumeItem{A platform-independent, high accuracy \& high performance automatic fingerprint identification system, optimized to the micro-architecture level of each device on which it is compiled.}
+\resumeItem{Is capable of performing precise one-to-many matching within 1 second, in a database of 5 million fingerprints.}
+\resumeItem{Was fully funded by SiGlaz VN Ltd.}
+\resumeItem{Was deployed on Debian Linux Servers, Windows Servers, MacOS Servers, AWS.}
+\resumeItemListEnd
+\vspace{-13pt}
+\resumeProjectHeading
+{\textbf{EuphoFP} $|$ \emph{C\#, .NET Core, .NET Framework, Unix, Windows, No 3rd-party}}{2023}
+\resumeItemListStart
+\resumeItem{A robust and reliable fingerprint feature extraction library, written for .NET cross-platform development.}
+\resumeItem{Has excellent resistance to noises and scratches; Is unaffected by the impact of pressure on the fingerprint impression; Has great tolerance to low-quality fingerprint images; Et cetera.}
+\resumeItem{Was fully funded by SiGlaz VN Ltd.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+\vspace{-15pt}
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+\small{\item{
+\textbf{Has profound knowledge of the language and the compiler of}{: C++} \\
+\textbf{Proficient at}{: C\#, C, Python, Java, Typescript, Javascript, HTML/CSS} \\
+\textbf{Technologies}{: Linux, Windows, Cloud Computing} \\
+\textbf{Documentation Tools}{: LaTeX, (R) Markdown, Slides,...} \\
+}}
+\end{itemize}
+\vspace{-16pt}
+
+
+%-----------INVOLVEMENT---------------
+\section{Extracurricular}
+\resumeSubHeadingListStart
+\resumeSubheading{Competitive Programming}{January 2021 -- October 2022}{Competitor}{Ho Chi Minh City}
+\resumeItemListStart
+\resumeItem{Accomplished outstanding achievements in regional, and notable results in national programming contests.}
+\resumeItem{Has competent experience in international online programming tournaments.}
+\resumeItem{Is skilled as both a solo competitor and a team member.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\end{document}
+
+
